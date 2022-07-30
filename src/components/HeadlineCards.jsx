@@ -16,7 +16,7 @@ const HeadLineCards = () => {
           </button>
         </div>
         <img
-          className="m-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
+          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
           src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg"
           alt=""
         />
@@ -25,16 +25,14 @@ const HeadLineCards = () => {
       <div className="rounded-xl relative">
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
-          <p className="font-bold text-2xl px-2 pt-4">
-            Sun's Out, Deals Are Out
-          </p>
-          <p className="px-2">Through 8/26</p>
+          <p className="font-bold text-2xl px-2 pt-4">New Restaurants</p>
+          <p className="px-2">Added Daily</p>
           <button className="border-white bg-white text-black mx-2 absolute bottom-4">
             Order Now
           </button>
         </div>
         <img
-          className="m-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
+          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
           src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg"
           alt=""
         />
@@ -43,17 +41,15 @@ const HeadLineCards = () => {
       <div className="rounded-xl relative">
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
-          <p className="font-bold text-2xl px-2 pt-4">
-            Sun's Out, Deals Are Out
-          </p>
-          <p className="px-2">Through 8/26</p>
+          <p className="font-bold text-2xl px-2 pt-4">We Deliver Desserts</p>
+          <p className="px-2">Tasty Treats</p>
           <button className="border-white bg-white text-black mx-2 absolute bottom-4">
             Order Now
           </button>
         </div>
         <img
-          className="m-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
-          src="https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?"
+          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
+          src="https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg"
           alt=""
         />
       </div>
